@@ -1,7 +1,7 @@
 package org.lecture.dayTwo;
 
-import java.util.Arrays;
-import java.util.LinkedHashMap;
+import org.lecture.FileReader;
+
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 
@@ -10,9 +10,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        GameFileReader reader = new GameFileReader();
+        FileReader reader = new FileReader();
         Game game = new Game();
-        LinkedHashSet<String> lines = reader.readLines("final.txt");
+        LinkedHashSet<String> lines = reader.readLines("final.txt",2);
 
         int result=0;
 

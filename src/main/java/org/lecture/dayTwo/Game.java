@@ -43,9 +43,6 @@ public class Game {
         return rgbCheck[0]>=rgbCurrent[0] && rgbCheck[1]>=rgbCurrent[1] && rgbCheck[2]>=rgbCurrent[2];
     }
 
-    public Integer[] getLowestRGB(Integer[] rgbCurrent){
-        return null;
-    }
 
     public Integer[] compareSmalestRGB(LinkedList<String> parts) {
         Integer[] rgb = {-1,-1,-1};
